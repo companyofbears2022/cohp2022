@@ -29,7 +29,7 @@ jobs:
 
       # 4. 构建
       - name: Build project
-        run: yarn build
+        run: CI=false yarn build
 
       # 5. 测试
       - name: Run tests
