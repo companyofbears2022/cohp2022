@@ -24,25 +24,6 @@
 
 @media (max-width: 960px) {
    .outline-wrapper {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        width: 12rem;
-        padding: 1rem 1rem 1rem;
-        max-height: 25vh;
-        overflow: scroll;
-        color: rgb(var(--doc-sub-title-font-rgb));
-        // z-index: 11;
-        &::-webkit-scrollbar {
-            display: none;
-        }
-        .is-actived {
-            color: var(--highlight-text-color);
-        }
-        .ouline-1st-title {
-            &:hover {
-                color: inherit;
-            }
-        }
+        display: none;
     } 
 }

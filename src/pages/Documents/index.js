@@ -11,6 +11,7 @@ import useActiveHeading from '@/hooks/useActiveHeading';
 
 export default function Documents() {
 
+    const [isOutlineUnfolded, setIsOutlineUnfolded] = useState(false)
     const navigate = useNavigate()
     const { language, rawData, getDocumentsData } = useStore()
     const { countryId, typeId } = useParams()
@@ -47,12 +48,24 @@ export default function Documents() {
         // setUid(uid)
     }
 
+    const handleOutlineIconClick = () => {
+        setIsOutlineUnfolded(!isOutlineUnfolded)
+    }
     
     return (
         <div className="documents-page">
             <NavBar></NavBar>
             <div className="document-body">
-                <Collapse items={ rawData } countryId={countryId} typeId={typeId} handleClick={handleSubMenuClick} handleCountryClick={handleMenuClick}></Collapse>
+                <Collapse items={ rawData }
+                countryId={countryId}
+                typeId={typeId}
+                handleClick={handleSubMenuClick}
+                handleCountryClick={handleMenuClick}
+                isOutlineUnfolded={isOutlineUnfolded}
+                handleOutlineIconClick={handleOutlineIconClick}
+                activeId={activeId}
+                handleTOCClick={handleOutlineClick}
+                ></Collapse>
                 <DocumentContent items={ displayData } uid={uid} handleClick={handleOutlineClick}></DocumentContent>
                 <Outline items={ rawData } countryId={countryId} typeId={typeId} activeId={activeId}
                 handleClick={handleOutlineClick}></Outline>
