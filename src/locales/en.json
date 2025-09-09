@@ -15,7 +15,6 @@
         "more": "More",
         "search": "Search...",
         "search_detail": "Search Units"
-
     },
     "theme": {
         "dark": "Sparking Dark",
@@ -155,6 +154,7 @@
         }
     },
     "hints": {
-        "no_result": "No result"
+        "no_result": "No result",
+        "rankX": "Rank {{rank}}"
     }
 }

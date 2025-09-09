@@ -42,7 +42,7 @@ export default function SearchPopup({item, handleClick, handleSearchItemClick, h
                             >
                                 <span className="iconfont icon-zuojiantou"></span>
                                 <span className="text">{itm.name}</span>
-                                <span className="tag">{'#Rank ' + itm.mt}</span>
+                                <span className="tag">{'#' + t('hints.rankX', {rank: itm.mt})}</span>
                                 <span className="tag">{'#' + t(unitType[itm.type?itm.type:0])}</span>
                             </div>
                         ))}
