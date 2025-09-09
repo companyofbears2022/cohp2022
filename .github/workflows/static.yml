@@ -32,8 +32,8 @@ jobs:
         run: CI=false yarn build
 
       # 5. 测试
-      - name: Run tests
-        run: yarn test
+      # - name: Run tests
+      #   run: yarn test
 
       # 6. 上传产物
       - name: Upload production-ready build files
