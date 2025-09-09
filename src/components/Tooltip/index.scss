@@ -1,0 +1,99 @@
+/* 触发层 */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* 提示本体（默认隐藏） */
+.tooltip-box {
+  position: absolute;
+  background: rgb(var(--tooltip-background-rgb));
+  color: rgb(var(--tooltip-text-rgb));
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* 出现时才可见 */
+.tooltip-wrapper:hover .tooltip-box {
+  opacity: 1;
+}
+
+/* ---- 四个方位 ---- */
+
+/* top */
+.tooltip-box.top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+}
+.tooltip-box.top::after {
+  content: '';
+  position: absolute;
+  top: 100%;                 /* 在提示框正下方 */
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: rgb(var(--tooltip-background-rgb));    /* 小三角颜色 = 背景色 */
+  
+}
+
+/* bottom */
+.tooltip-box.bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+}
+.tooltip-box.bottom::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-bottom-color: rgb(var(--tooltip-background-rgb));
+}
+
+/* left */
+.tooltip-box.left {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-8px);
+}
+.tooltip-box.left::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-left-color: rgb(var(--tooltip-background-rgb));
+}
+
+/* right */
+.tooltip-box.right {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%) translateX(8px);
+}
+.tooltip-box.right::after {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-right-color: rgb(var(--tooltip-background-rgb));
+}
+
+
+@media (max-width: 960px) {
+  .tooltip-box {
+    white-space: wrap;
+  }
+}

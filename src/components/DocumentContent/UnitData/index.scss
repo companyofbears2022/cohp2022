@@ -1,0 +1,93 @@
+.unit-data-wrapper {
+    margin: 1rem 0;
+    border: 1px solid rgba(var(--doc-item-border-rgb), 0.3);
+    border-radius: 1rem;
+    .unit-data-countainer {
+        display: flex;
+        flex-direction: column;
+
+        .stat-section {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid rgba(var(--doc-item-border-rgb), 0.3);
+            .stat-section-title {
+                font-size: 1rem;
+            }
+            .stat-row {
+                position: relative;
+                display: flex;
+                justify-content: start;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .stat-col {
+                    padding: 0.5rem 0;
+                    display: inline-box;
+                    width: calc((100% - 2rem) / 3);
+                    flex-shrink: 0;
+                    .stat-name {
+                        font-size: 0.8rem;
+                    }
+                    
+                }
+
+                .armour-indicator-1st {
+                    position: absolute;
+                    top: -1rem;
+                    right: 2rem;
+                }
+                
+                .armour-indicator-2st {
+                    position: absolute;
+                    bottom: -0.5rem;
+                    right: 2rem;
+                }
+            }
+
+            .stat-two-column {
+                display: flex;
+                justify-content: start;
+                flex-direction: row;
+                align-items: stretch;
+                position: relative;
+                .stat-two-column-left {
+                    display: flex;
+                    flex-direction: column;
+                    width: calc(((100% - 2rem) / 2) - 4rem);
+                    margin-right: 4rem;
+                    
+                    .stat-left {
+                        flex: 0;
+                        
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0.5rem 0;
+                        .stat-name {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .stat-two-column-right {
+                    position: absolute;
+                    top: -2rem;
+                    right: 0;
+                    // flex: 0 0 calc((100% - 2rem) / 2);
+                    flex: 1;
+                    width: calc((100% - 2rem) / 2);
+                    height: 10rem;
+                }
+                .ammo {
+                    height: 17rem;
+                }
+            }
+
+            &:last-child {
+            border-bottom: none;
+            }
+            .stat-value {
+                        color: var(--highlight-text-color);
+                    }
+        }
+    }
+
+}

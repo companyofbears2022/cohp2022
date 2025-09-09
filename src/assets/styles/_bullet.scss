@@ -1,0 +1,13 @@
+@mixin bullet-underline {
+    &::after {
+        position: absolute;
+        width: 100%;
+        content: '';
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        height: 2px;
+        background-image: var(--nav-bar-item-underline);
+        background-size: 100% 2px;
+    }
+}

@@ -1,0 +1,24 @@
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    color: var(--highlight-text-color);
+    padding-bottom: 4rem;
+
+    .pagination-item {
+        width: 2.5rem;
+        height: 2.5rem;
+        text-align: center;
+        line-height: 2.5rem;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease;
+        &:hover {
+            color: var(--title-font-color);
+            background-color: var(--button-background-color-hover);
+        }
+    }
+    .is-selected {
+        color: var(--title-font-color);
+        background-color: var(--button-background-color);
+    }
+}

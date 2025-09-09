@@ -1,0 +1,10 @@
+
+.news-detail {
+    padding: var(--common-padding-top) var(--common-padding-side) var(--common-padding-bottom);
+}
+
+@media (max-width: 960px) {
+    .news-detail {
+        padding: var(--common-padding-top-m) var(--common-padding-side-m) var(--common-padding-bottom-m);
+    }
+}

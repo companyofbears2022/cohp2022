@@ -1,0 +1,31 @@
+{
+    "nav": {
+        "tutorial": "教程",
+        "news": "资讯",
+        "documents": "单位",
+        "theme": "主题",
+        "language": "语言",
+        "community": "社区"
+    },
+    "headers": {
+        "news": "最新资讯"
+    },
+    "actions": {
+        "download": "下载模组",
+        "more": "更多"
+    },
+    "theme": {
+        "dark": "暗色(金)",
+        "light": "浅色(紫)",
+        "pink": "浅色(粉)"
+    },
+    "language": {
+        "english": "English",
+        "s-chinese": "简体中文"
+    },
+    "community": {
+        "discord": "Discord",
+        "steam": "创意工坊",
+        "qq": "QQ群组"
+    }
+}

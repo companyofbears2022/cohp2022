@@ -1,0 +1,53 @@
+@import '@/assets/styles/document';
+
+.article-container {
+    width: 100%;
+    min-height: 40vh;
+    font-size: 1rem;
+    padding: 0 0 2rem;
+    background-color: rgba(var(--article-background-rgb), 0.09);
+    .top-nav-box {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        color: var(--highlight-text-color);
+        .option {
+
+            height: 2.8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(var(--article-background-rgb), 0.15);
+            &:hover {
+                background-color: rgba(var(--article-background-rgb), 0.15);
+            }
+        }
+        .home {
+            width: 3rem;
+        }
+        span {
+            font-size: 1.5rem;
+        }
+        .news {
+            margin-left: 0.5rem;
+            font-size: 1.2rem;
+        }
+        .news-out {
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+        }
+    }
+
+    .title-text {
+        color: var(--article-font-color);
+        font-size: 2.2rem;
+
+    }
+    .time-text {
+        color: rgba(var(--article-font-rgb), 0.5);
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+}

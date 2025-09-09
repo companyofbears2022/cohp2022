@@ -1,0 +1,48 @@
+
+.collapse-menu {
+    padding: 0 0 1rem;
+    .collapse-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2rem;
+        .iconfont {
+            transform: rotate(0deg);
+            transition: transform 0.1s ease-in-out;
+        }
+        &:hover {
+            text-indent: 1em;
+            font-style: italic;
+            background-color: var(--doc-background-hov);
+            color: var(--doc-title-font-hov);
+            box-shadow:
+            0 0   8px  rgba(var(--doc-outline-light-rgb), 0.25),
+            0 0   12px  rgba(var(--doc-outline-light-rgb), 0.20),
+            0 0  20px  rgba(var(--doc-outline-light-rgb), 0.15),
+            0 0  36px  rgba(var(--doc-outline-light-rgb), 0.10);
+        }
+    }
+
+    .is-unfolded {
+        .iconfont {
+            text-indent: 0em;
+            transform: rotate(90deg);
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+
+    .collapse-menu {
+        padding: 0 0 1rem;
+        .collapse-title {
+            width: 16rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 0.5rem;
+        }
+    }
+
+}

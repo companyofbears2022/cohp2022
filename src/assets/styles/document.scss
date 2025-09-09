@@ -1,0 +1,40 @@
+.content-box {
+  color: var(--article-font-color);
+  font-size: 1.2rem;
+  padding: 3vw;
+    h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    }
+
+    p {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    }
+    img {
+    width: 100%;
+    }
+    a {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    color: var(--article-font-color);
+    text-decoration: underline;
+    font-style: italic;
+    }
+    ul {
+        padding: 0 4rem 0;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .content-box {
+        ul {
+            padding: 0 2rem 0;
+        }
+    }
+}

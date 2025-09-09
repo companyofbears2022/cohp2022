@@ -1,0 +1,21 @@
+
+
+.documents-page {
+    width: 100%;
+    color: var(--font-color);
+    .document-body {
+        display: flex;
+        margin-top: 5.2rem;
+        justify-content: center;
+        height: calc(100% - 5.2rem);
+    }
+}
+
+@media (max-width: 960px) {
+    .documents-page {
+        width: 100vw;
+        .document-body {
+            width: 100vw;
+        }
+    }
+}

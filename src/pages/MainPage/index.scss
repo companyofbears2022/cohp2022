@@ -1,0 +1,17 @@
+
+
+.main-page {
+    background-color: var(--back-ground-color);
+    padding-bottom: 15rem;
+    .download-btn {
+        margin:0 0 2rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .main-page {
+        .download-btn {
+            margin:0 0 1.5rem;
+        }
+    }
+}

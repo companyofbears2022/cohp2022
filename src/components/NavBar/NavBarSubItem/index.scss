@@ -1,0 +1,18 @@
+
+
+.nav-bar-sub-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    color: var(--secon-title-font-color);
+    span {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &:hover {
+        color: var(--title-font-color);
+    }
+}

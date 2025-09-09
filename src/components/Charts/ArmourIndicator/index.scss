@@ -1,0 +1,39 @@
+
+.armour-indicator {
+    display: flex;
+    flex-direction: row;
+    .y-axis {
+        box-sizing: border-box;
+        width: calc(1rem + 1px);
+        height: calc(3rem + 1px);
+        border-right: 1px dashed #fff;
+        font-size: 0.7rem;
+        // font-style: italic;
+        .y-axis-text {
+            transform: rotate(90deg);
+        }
+    }
+    .x-axis-box {
+        display: flex;
+        flex-direction: column;
+        width: 3rem;
+        height: calc(4rem + 1px);
+        .armour-plate {
+            margin-left: 0.5rem;
+            box-sizing: border-box;
+            width: var(--w);
+            height: 3rem;
+            border: 1px solid rgba(var(--highlight-text-rgb),1);
+            background-color: rgba(var(--highlight-text-rgb),0.5);
+            transform-origin: bottom left;
+            transform: rotate(var(--r));
+        }
+        .x-axis {
+            width: 100%;
+            height: calc(1rem + 1px);
+            border-top: 1px dashed #fff;
+            font-size: 0.7rem;
+            font-style: italic;
+        }
+    }
+}

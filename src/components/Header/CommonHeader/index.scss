@@ -1,0 +1,27 @@
+
+
+.common-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--common-padding-side);
+    margin: 0rem 0 1rem;
+    color: var(--highlight-text-color);
+    .header-title {
+        font-size: 1.4rem;
+    }
+    .header-action {
+        font-size: 1.1rem;
+    }
+    
+}
+
+
+
+@media (max-width: 960px) {
+    .common-header {
+        // width: 10rem;
+        padding: 0 var(--common-padding-side-m);
+    }
+}

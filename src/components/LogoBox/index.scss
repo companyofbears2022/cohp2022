@@ -1,0 +1,12 @@
+
+
+.main-logo-box {
+    width: 20rem;
+}
+
+@media (max-width: 960px) {
+    .main-logo-box {
+        width: 10rem;
+        padding-top: 3rem;
+    }
+}
