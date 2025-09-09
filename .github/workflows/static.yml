@@ -20,7 +20,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'yarn'             # 官方缓存 yarn 全局缓存 + yarn-offline-mirror
 
       # 3. 装依赖（yarn.lock 存在时会自动 yarn install --frozen-lockfile）
