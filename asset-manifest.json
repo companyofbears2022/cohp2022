@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/cohp2022/static/css/main.08b145c3.css",
-    "main.js": "/cohp2022/static/js/main.1a55b6a8.js",
+    "main.css": "/cohp2022/static/css/main.69cb74e6.css",
+    "main.js": "/cohp2022/static/js/main.4d10cf60.js",
     "static/css/124.e268d8bf.chunk.css": "/cohp2022/static/css/124.e268d8bf.chunk.css",
     "static/js/124.b0bc186f.chunk.js": "/cohp2022/static/js/124.b0bc186f.chunk.js",
-    "static/css/434.fc5350e5.chunk.css": "/cohp2022/static/css/434.fc5350e5.chunk.css",
-    "static/js/434.f489eda9.chunk.js": "/cohp2022/static/js/434.f489eda9.chunk.js",
+    "static/css/434.e024393a.chunk.css": "/cohp2022/static/css/434.e024393a.chunk.css",
+    "static/js/434.4c169c5d.chunk.js": "/cohp2022/static/js/434.4c169c5d.chunk.js",
     "static/js/453.d8ae2259.chunk.js": "/cohp2022/static/js/453.d8ae2259.chunk.js",
     "static/js/945.e115d8b5.chunk.js": "/cohp2022/static/js/945.e115d8b5.chunk.js",
     "static/media/logo_large.png": "/cohp2022/static/media/logo_large.c45ae34138426abb32ca.png",
@@ -15,17 +15,17 @@
     "static/media/cancel_small.svg": "/cohp2022/static/media/cancel_small.d6b050cccafac322f8e32c8a0eb8f220.svg",
     "static/media/arrow_down.svg": "/cohp2022/static/media/arrow_down.0b404ca8c9ff4afa5ba64144fe905404.svg",
     "static/media/arrow_down_mobile.svg": "/cohp2022/static/media/arrow_down_mobile.821e0204c7e95e4e5103f2b9fbbc57ef.svg",
-    "main.08b145c3.css.map": "/cohp2022/static/css/main.08b145c3.css.map",
-    "main.1a55b6a8.js.map": "/cohp2022/static/js/main.1a55b6a8.js.map",
+    "main.69cb74e6.css.map": "/cohp2022/static/css/main.69cb74e6.css.map",
+    "main.4d10cf60.js.map": "/cohp2022/static/js/main.4d10cf60.js.map",
     "124.e268d8bf.chunk.css.map": "/cohp2022/static/css/124.e268d8bf.chunk.css.map",
     "124.b0bc186f.chunk.js.map": "/cohp2022/static/js/124.b0bc186f.chunk.js.map",
-    "434.fc5350e5.chunk.css.map": "/cohp2022/static/css/434.fc5350e5.chunk.css.map",
-    "434.f489eda9.chunk.js.map": "/cohp2022/static/js/434.f489eda9.chunk.js.map",
+    "434.e024393a.chunk.css.map": "/cohp2022/static/css/434.e024393a.chunk.css.map",
+    "434.4c169c5d.chunk.js.map": "/cohp2022/static/js/434.4c169c5d.chunk.js.map",
     "453.d8ae2259.chunk.js.map": "/cohp2022/static/js/453.d8ae2259.chunk.js.map",
     "945.e115d8b5.chunk.js.map": "/cohp2022/static/js/945.e115d8b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b145c3.css",
-    "static/js/main.1a55b6a8.js"
+    "static/css/main.69cb74e6.css",
+    "static/js/main.4d10cf60.js"
   ]
 }
