@@ -3,11 +3,11 @@
 .image-text-card {
     width: 16.5rem;
     height: 23rem;
-    background-color: rgba(39,55,61,1);
+    background-color: rgba(var(--img-box-background-rgb),1);
     /* margin-left: 7vw; */
     margin-right: 3rem;
     flex-shrink: 0;
-    border: .25px solid rgba(255, 255, 255, 0.1);
+    border: .25px solid rgba(var(--doc-outline-light-rgb), 0.1);
     .img-box {
         position: relative;
         width: 100%;
@@ -23,7 +23,7 @@
             right: 1rem;
             z-index: 500;
             /* margin-left: 1.5vw; */
-            color: rgb(220, 220, 220);
+            color: rgb(var(--img-box-font-rgb));
             font-size: 0.9rem;
             font-weight: 700;
         }
@@ -34,7 +34,7 @@
             height: 5rem;
             bottom: 0;
             left: 0;
-            background: linear-gradient(to top, rgba(39,55,61,1), rgba(39,55,61,0));
+            background: linear-gradient(to top, rgba(var(--img-box-background-rgb),1), rgba(var(--img-box-background-rgb),0));
         }
     }
 
@@ -44,14 +44,14 @@
         overflow: hidden;
         padding: 0 1rem 0;
         .title {
-            color: rgb(255, 255, 255);
+            color: rgb(var(--doc-outline-light-rgb));
             font-weight: 700;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
             text-align: left;
         }
         .content {
-            color: rgb(220, 220, 220);
+            color: rgb(var(--img-box-font-rgb));
             font-weight: 400;
             font-size: 1rem;
             line-height: 1.5;
@@ -64,7 +64,7 @@
             height: 5vh;
             bottom: 0;
             left: 0;
-            background: linear-gradient(to top, rgba(39,55,61,1), rgba(39,55,61,0));
+            background: linear-gradient(to top, rgba(var(--img-box-background-rgb),1), rgba(var(--img-box-background-rgb),0));
         }
     }
 
@@ -81,11 +81,9 @@
     .image-text-card {
         width: 21rem;
         height: 30rem;
-        background-color: rgba(39,55,61,1);
         /* margin-left: 7vw; */
         margin-right: 1.5rem;
         flex-shrink: 0;
-        border: .25px solid rgba(255, 255, 255, 0.1);
         .img-box {
             position: relative;
             width: 100%;
@@ -101,7 +99,6 @@
                 right: 1rem;
                 z-index: 500;
                 /* margin-left: 1.5vw; */
-                color: rgb(220, 220, 220);
                 font-size: 0.9rem;
                 font-weight: 700;
             }
@@ -112,7 +109,6 @@
                 height: 5rem;
                 bottom: 0;
                 left: 0;
-                background: linear-gradient(to top, rgba(39,55,61,1), rgba(39,55,61,0));
             }
         }
 
@@ -122,14 +118,12 @@
             overflow: hidden;
             padding: 0 1rem 0;
             .title {
-                color: rgb(255, 255, 255);
                 font-weight: 700;
                 font-size: 1.2rem;
                 margin-bottom: 0.5rem;
                 text-align: left;
             }
             .content {
-                color: rgb(220, 220, 220);
                 font-weight: 400;
                 font-size: 1rem;
                 line-height: 1.5;
@@ -141,13 +135,9 @@
                 height: 5vh;
                 bottom: 0;
                 left: 0;
-                background: linear-gradient(to top, rgba(39,55,61,1), rgba(39,55,61,0));
             }
         }
 
-        &:hover {
-            border:1px solid#ffb84f;
-        }
 
     }
 }

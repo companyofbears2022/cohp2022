@@ -1,6 +1,8 @@
 import './index.scss'
 import { useTranslation } from 'react-i18next';
-
+import Rate from '@/components/Rate'
+import { colors } from '@/utils/constants'
+import styles from './tags.module.scss'
 const typeMap = {
     0: (item) => <h3>{item.content}</h3>,
     1: (item) => <p>{item.content}</p>,
@@ -9,10 +11,26 @@ const typeMap = {
             {item.contents.map((text, i) => <li key={i}>{text}</li>)}
         </ul>
     ),
-    3: (item) => <a href={item.url}>{item.content}</a>
+    3: (item) => <a href={item.url}>{item.content}</a>,
+    4: (item) => <Rate rate={item.rate}></Rate>,
+    5: (item) => <h4>{item.content}</h4>,
+    6: (item) => <div className="img-container"><img src={item.url} alt={item.content} /></div>,
+    7: (item) => <i>{item.content}</i>,
+    8: (item) => (
+        <div className="tags-container">
+            {item.contents.map((tag, i) => <span
+            key={i}
+            className={styles[`tagColor${i % colors.length}`]}
+            >{tag.content}</span>)}
+        </div>
+    ),
+    9: (item) => <div className="divider" />,
+
 };
 
-export default function Article({ json = {
+export default function Article({ 
+    name,
+    json = {
         "id": -1,
         "title": "",
         "content": []
@@ -30,7 +48,7 @@ export default function Article({ json = {
                 </div>
                 <div className="option news-out" onClick={() => {handleClickBack()}}>
                     <span className="iconfont icon-zuojiantou"></span>
-                    <span className="news">{t('nav.news')}</span>
+                    <span className="news">{t(name)}</span>
                 </div>
             </div>
             <div className="content-box">

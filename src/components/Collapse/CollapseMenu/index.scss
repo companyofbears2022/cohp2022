@@ -6,9 +6,10 @@
         justify-content: space-between;
         align-items: center;
         padding-right: 2rem;
+        transition: all 0.2s ease-in-out;
         .iconfont {
             transform: rotate(0deg);
-            transition: transform 0.1s ease-in-out;
+            transition: transform 0.3s ease-in-out;
         }
         &:hover {
             text-indent: 1em;

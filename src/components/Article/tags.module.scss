@@ -1,0 +1,18 @@
+$colors: (
+  (64, 158, 255),
+  (103, 194, 58),
+  (230, 162, 60),
+  (245, 108, 108)
+);
+
+@for $i from 0 through 3 {
+  .tagColor#{$i} {
+    color: rgb(nth($colors, $i + 1)...); 
+    background-color: rgba(nth($colors, $i + 1)..., $alpha: 0.2);
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(nth($colors, $i + 1)..., $alpha: 0.5);
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+}

@@ -13,6 +13,8 @@ export default function Collapse({items, countryId, typeId, handleClick,handleCo
     const outline = items.length > 0?items[countryId].categeries[typeId].units:[];
     const isMobile = useMediaQuery('(max-width: 960px)')
 
+    console.log('ism',isMobile);
+    
     const handleUnfold = () => {
         setIsUnfolded(!isUnfolded)
     }
@@ -37,7 +39,7 @@ export default function Collapse({items, countryId, typeId, handleClick,handleCo
                 <span className={`iconfont ${icon2Class}`} onClick={() => {handleTOCUnfold()}}></span>
             </div>
             {
-                isUnfolded && (
+                (isUnfolded || !isMobile) && (
                     <div className="collapse-container">
                         {
                             items.map((item, index) => (
@@ -48,7 +50,7 @@ export default function Collapse({items, countryId, typeId, handleClick,handleCo
                 )
             }
             {
-                isTOCUnfolded && (
+                isMobile && isTOCUnfolded && (
                     <div className="toc-container">
                         {
                             outline.map((item) => (

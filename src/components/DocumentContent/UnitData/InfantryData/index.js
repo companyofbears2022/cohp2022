@@ -78,29 +78,6 @@ export default function InfantryData({item}) {
     ]
 
 
-    const config = {
-        // data: hitRateData,
-        autoFit: true,
-        xField: 'dist',
-        yField: 'value',
-        shapeField: 'smooth',
-        seriesField: 'type',
-        // 曲线颜色
-        colorField: 'type',
-        scale: { color: { range: ['#FAAD14', '#F4664A'] } },
-        // scale: { y: { domainMin: 0 } },
-        interaction: { 
-            tooltip: {
-                marker: true,
-            },
-            
-        },
-        
-        style: { lineWidth: 2 },
-        theme: { type: 'dark' },
-        
-    };
-
     return (
         <div className="unit-data-countainer">
             <BasicAttriSection title={t('docs.ift.basicAttri')} framework={basicAttriFram}></BasicAttriSection>

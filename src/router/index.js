@@ -2,9 +2,11 @@ import { createHashRouter } from 'react-router';
 import { Suspense, lazy } from 'react';
 import MainPage from '../pages/MainPage';
 import News from '../pages/News';
+import Tutorials from '../pages/Tutorials';
 // import NewsDetail from '@/pages/News/NewsDetail/index';
 import Loading from '@/components/Loading'
 const NewsDetail = lazy(() => import('@/pages/News/NewsDetail/index'))
+const TutosDetail = lazy(() => import('@/pages/Tutorials/TutosDetail/index'))
 const Documents= lazy(() => import('@/pages/Documents/index'))
 const router = createHashRouter([
   {
@@ -20,6 +22,18 @@ const router = createHashRouter([
     element: (
       <Suspense fallback={<Loading />}>
         <NewsDetail />
+      </Suspense>
+    )
+  },
+  {
+    path: '/tutorials',
+    element: <Tutorials />
+  },
+  {
+    path: '/tutorials/detail',
+    element: (
+      <Suspense fallback={<Loading />}>
+        <TutosDetail />
       </Suspense>
     )
   },

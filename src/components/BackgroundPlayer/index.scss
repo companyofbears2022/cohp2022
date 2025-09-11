@@ -19,7 +19,7 @@
         bottom: 0;
         left: 0;
         background-color: #122126;
-        background: linear-gradient(to top, rgba(18,33,38,1), rgba(18,33,38,0));
+        background: linear-gradient(to top, rgba(var(--nav-background-musk-rgb),1), rgba(var(--nav-background-musk-rgb),0));
     }
 }
 

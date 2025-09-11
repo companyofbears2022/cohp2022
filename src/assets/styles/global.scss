@@ -1,9 +1,22 @@
 :root,:root[data-theme="default"] {
+    --nav-background-rgb: 0, 0, 0;
+    --nav-background-musk-rgb: 18,33,38;
+
+    --img-box-border-color: #29393f;
+    --img-box-background-rgb: 39,55,61;
+    --img-box-font-rgb: 220, 220, 220;
+
     --back-ground-color: #122126;
     --back-ground-rgb: 18, 33, 38;
+
     --button-background-color: #414d51;
     --button-background-rgb: 65, 77, 81;
     --button-background-color-hover: #2e3c40;
+    --button-primary-color1:#ffb84f;
+    --button-primary-color2:#ff7030;
+    --button-primary-hover-color1:#ffc14f;
+    --button-primary-hover-color2:#ff9b30;
+
     --title-font-color: #ffffff;
     --secon-title-font-color: #aaaaaa;
     --third-title-font-color: #808080;
@@ -48,20 +61,139 @@
     --common-padding-side-m: 2rem;
 }
 :root[data-theme="light"] {
+    --nav-background-rgb: 255, 255, 255;
+    --nav-background-musk-rgb: 255, 255, 255;
+    
+    --img-box-border-color: #f9d7ff;
+    --img-box-background-rgb: 142, 111, 192;
+
+    /* 主背景色 */
     --back-ground-color: #ffffff;
-    --font-color: #764abc;
-    --button-color: green;
+    --back-ground-rgb: 255, 255, 255;
+    
+    /* 按钮配色 */
+    --button-background-color: #f0f0f0;
+    --button-background-rgb: 240, 240, 240;
+    --button-background-color-hover: #e0e0e0;
+    --button-primary-color1:#fc4fff;
+    --button-primary-color2:#d930ff;
+    --button-primary-hover-color1:#e84fff;
+    --button-primary-hover-color2:#ff30ff;
+
+    /* 文字配色 */
+    --title-font-color: #1a1a1a;
+    --secon-title-font-color: #4d4d4d;
+    --third-title-font-color: #808080;
+    --font-color: #333333;
+    --article-font-color: #2d2d2d;
+    --article-font-rgb: 45, 45, 45;
+    --article-background-rgb: 255, 255, 255;
+    
+    /* 导航栏 */
+    --nav-bar-border-rgb: 118, 74, 188;
+    --nav-bar-item-underline: radial-gradient(50% 50% at 50% 50%, rgba(118, 74, 188, 0.3) 0px, rgba(118, 74, 188, 0) 100%);
+    --nav-dropdown-background-rgb: 255, 255, 255;
+    --nav-dropdown-shadow-rgb: 220, 220, 220;
+    
+    /* 高亮文本 - 紫色主题 */
+    --highlight-text-color: #764abc;
+    --highlight-text-rgb: 118, 74, 188;
+    --highlight-text-bling-color: #9b79d6;
+    --highlight-text-bling-rgb: 155, 121, 214;
+    --text-shadow: rgba(0, 0, 0, 0.1);
+    --text-shadow-rgb: 0, 0, 0;
+    --button-color: #764abc;
+    
+    /* 文档菜单 */
+    --doc-menu-border-rgb: 118, 74, 188;
+    --doc-background-hov: #f8f5ff;
+    --doc-title-font-hov: #764abc;
+    --doc-sub-title-font-rgb: 100, 100, 100;
+    --doc-outline-light-rgb: 240, 240, 240;
+    --doc-item-border-rgb: 118, 74, 188;
+    --doc-desc-font-rgb: 120, 120, 120;
+    --doc-label-background-rgb: 184, 158, 227;
+    
+    /* 工具提示 */
+    --tooltip-background-rgb: 50, 50, 50;
+    --tooltip-text-rgb: 255, 255, 255;
+    
+    /* 遮罩 */
+    --mask-rgb: 240, 240, 240;
+    
+    /* 搜索框 */
+    --search-box-background-rgb: 245, 245, 245;
 }
 :root[data-theme="pink"] {
+    --nav-background-rgb: 255, 255, 255;
+    --nav-background-musk-rgb: 255, 255, 255;
+    
+    --img-box-border-color: #f9d7ff;
+    --img-box-background-rgb: 238, 152, 204;
+
+    /* 主背景色 */
     --back-ground-color: #ffffff;
-    --font-color: #c7254e;
-    --button-color: green;
+    --back-ground-rgb: 255, 255, 255;
+    
+    /* 按钮配色 */
+    --button-background-color: #f5f5f5;
+    --button-background-rgb: 245, 245, 245;
+    --button-background-color-hover: #e8e8e8;
+    --button-primary-color1:#ff4f9e;
+    --button-primary-color2:#ff30c1;
+    --button-primary-hover-color1:#ff4fdf;
+    --button-primary-hover-color2:#ff30e0;
+
+    /* 文字配色 */
+    --title-font-color: #1a1a1a;
+    --secon-title-font-color: #555555;
+    --third-title-font-color: #888888;
+    --font-color: #333333;
+    --article-font-color: #2d2d2d;
+    --article-font-rgb: 45, 45, 45;
+    --article-background-rgb: 255, 255, 255;
+    
+    /* 导航栏 */
+    --nav-bar-border-rgb: 199, 37, 78;
+    --nav-bar-item-underline: radial-gradient(50% 50% at 50% 50%, rgba(199, 37, 78, 0.3) 0px, rgba(199, 37, 78, 0) 100%);
+    --nav-dropdown-background-rgb: 255, 255, 255;
+    --nav-dropdown-shadow-rgb: 230, 230, 230;
+    
+    /* 高亮文本 - 粉色主题 */
+    --highlight-text-color: #c7254e;
+    --highlight-text-rgb: 199, 37, 78;
+    --highlight-text-bling-color: #e0527a;
+    --highlight-text-bling-rgb: 224, 82, 122;
+    --text-shadow: rgba(0, 0, 0, 0.1);
+    --text-shadow-rgb: 0, 0, 0;
+    --button-color: #c7254e;
+    
+    /* 文档菜单 */
+    --doc-menu-border-rgb: 255, 57, 106;
+    --doc-background-hov: #fff5f7;
+    --doc-title-font-hov: #c7254e;
+    --doc-sub-title-font-rgb: 110, 110, 110;
+    --doc-outline-light-rgb: 245, 245, 245;
+    --doc-item-border-rgb: 255, 57, 106;
+    --doc-desc-font-rgb: 130, 130, 130;
+    --doc-label-background-rgb: 254, 173, 211;
+    
+    /* 工具提示 */
+    --tooltip-background-rgb: 60, 60, 60;
+    --tooltip-text-rgb: 255, 255, 255;
+    
+    /* 遮罩 */
+    --mask-rgb: 245, 245, 245;
+    
+    /* 搜索框 */
+    --search-box-background-rgb: 250, 250, 250;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background-color 0.6s ease-in-out;
 }
 
 html, body {

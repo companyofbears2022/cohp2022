@@ -1,1 +1,1 @@
-type: 0 header, 1 paragraph, 2 list, 3 link
+type: 0 header, 1 paragraph, 2 list, 3 link, 4 rating, 5 subtitle, 6 image, 7 italic, 8 tags

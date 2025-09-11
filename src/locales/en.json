@@ -155,6 +155,8 @@
     },
     "hints": {
         "no_result": "No result",
-        "rankX": "Rank {{rank}}"
+        "rankX": "Rank {{rank}}",
+        "vertical": "vertical",
+        "horizontal": "horizontal"
     }
 }

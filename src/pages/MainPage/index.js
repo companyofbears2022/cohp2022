@@ -7,53 +7,36 @@ import LogoBox from '@/components/LogoBox'
 import CardsListH from '@/components/Cards/CardsListH'
 import CommonHeader from '@/components/Header/CommonHeader'
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom'
+import useStore from '@/store'
+import { pageSize } from '@/utils/constants' 
+import { useEffect } from 'react'
 
 export default function MainPage() {
     const { t } = useTranslation()
+    const navigate = useNavigate()
     const pictureList = ['https://cobw.oss-cn-hangzhou.aliyuncs.com/mianpage/main1.jpg']
+    
+    
+    const { newsList, fetchNewsList,tutosList, fetchTutosList, getLanguage } = useStore()
+    
+    useEffect(() => {
+        fetchNewsList(getLanguage(), 1, 10)
+        fetchTutosList(getLanguage(), 1, 10)
+    },[getLanguage()])
 
-    const newsList = [
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 1',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        },
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 2',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        },
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 3',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        },
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 4',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        },
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 5',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        },
-        {
-            imgUrl: 'https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png',
-            title: 'Test tes ttset etstestets etstestets 6',
-            time: '2025-08-21',
-            content: 'Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints.'
-        }
-    ]
+    const handleNewsClick = (id) => {
+        navigate(`/news/detail?id=${id}`)
+    }
+    const handleTutosClick = (id) => {
+        navigate(`/tutorials/detail?id=${id}`)
+    }
 
-    function navigateTo() {
-        console.log('clk');
-        
+    function navigateToNews() {
+        navigate('/news')
+    }
+    function navigateToTutos() {
+        navigate('/tutorials')
     }
     return (
         <div className="main-page">
@@ -67,8 +50,12 @@ export default function MainPage() {
                     <InfoButton text={t('actions.download')}></InfoButton>
                 </div>
             </BackgroundPlayer>
-            <CommonHeader title={t('headers.news')} action={t('actions.more')+' >>>'} clickHandler={navigateTo}></CommonHeader>
-            <CardsListH items={newsList}></CardsListH>
+
+            <CommonHeader title={t('headers.news')} action={t('actions.more')+' >>>'} clickHandler={navigateToNews}></CommonHeader>
+            <CardsListH items={newsList.data} handleClick={handleNewsClick}></CardsListH>
+            <div className="divider"></div>
+            <CommonHeader title={t('nav.tutorial')} action={t('actions.more')+' >>>'} clickHandler={navigateToTutos}></CommonHeader>
+            <CardsListH items={tutosList.data} handleClick={handleTutosClick}></CardsListH>
             
         </div>
     )

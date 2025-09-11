@@ -8,11 +8,11 @@ import { useNavigate } from 'react-router-dom'
 import { pageSize } from '@/utils/constants' 
 
 export default function News() {
-    const [page, setPage] = useState()
+    // const [page, setPage] = useState()
     const [currentPage, setCurrentPage] = useState(1)
     const navigate = useNavigate()
 
-    const { newsList, fetchNewsList, getLanguage, getNewsListTotal } = useStore()
+    const { language, newsList, fetchNewsList, getLanguage, getNewsListTotal } = useStore()
 
     const total = getNewsListTotal()
     // console.log('total',total);
@@ -22,19 +22,19 @@ export default function News() {
     }
 
     useEffect(() => {
-        fetchNewsList(getLanguage(), currentPage, pageSize)
-    },[])
+        fetchNewsList(language, currentPage, pageSize)
+    },[language])
     // console.log(newsList)
 
     function changePage(index) {
         setCurrentPage(index)
-        fetchNewsList(getLanguage(), index, pageSize)
+        fetchNewsList(language, index, pageSize)
     }
       
     return (
         <div className="news-page">
             <NavBar></NavBar>
-            <CardListGrid items={newsList} handleClick={handleClick}></CardListGrid>
+            <CardListGrid items={newsList.data} handleClick={handleClick}></CardListGrid>
             <Pagination pageSize={pageSize} total={total} currentPage={currentPage} changePage={changePage}></Pagination>
         </div>
     )

@@ -3,6 +3,7 @@
 .article-container {
     width: 100%;
     min-height: 40vh;
+    max-width: 100rem;
     font-size: 1rem;
     padding: 0 0 2rem;
     background-color: rgba(var(--article-background-rgb), 0.09);
@@ -50,4 +51,22 @@
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
+    .img-container {
+        padding: 1rem 0;
+        img {
+            width: 20rem;
+            max-width: 100%;
+        }
+    }
+
+    .tags-container {
+        margin: 0 0 0.5rem;
+    }
+
+    .divider {
+        margin-bottom: 4rem;
+    }
+    
 }
+
+

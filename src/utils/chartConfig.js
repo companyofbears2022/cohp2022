@@ -1,3 +1,5 @@
+import { chartColors } from './constants'
+
 export function lineChartConfig(xField, yField, theme, seriesField=undefined, colorField=undefined) {
         return {
         // data: hitRateData,
@@ -8,7 +10,7 @@ export function lineChartConfig(xField, yField, theme, seriesField=undefined, co
         seriesField: seriesField,
         // 曲线颜色
         colorField: colorField,
-        scale: { color: { range: ['#FAAD14', '#F4664A'] } },
+        scale: { color: { range: [chartColors[theme][0], chartColors[theme][1]] } },
         // scale: { y: { domainMin: 0 } },
         interaction: { 
             tooltip: {
@@ -18,7 +20,7 @@ export function lineChartConfig(xField, yField, theme, seriesField=undefined, co
         },
         
         style: { lineWidth: 2 },
-        theme: { type: theme },
+        theme: { type: theme === 'default'?'dark':'light' },
         
     };
 }

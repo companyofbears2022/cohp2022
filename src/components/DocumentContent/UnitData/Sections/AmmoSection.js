@@ -5,9 +5,10 @@ import { iftAttRange } from "@/utils/constants";
 import { calcuHitRate } from "@/utils/calcus";
 import { lineChartConfig } from "@/utils/chartConfig";
 import { ammoTypeEnum } from "@/utils/constants";
+import useTheme from "@/hooks/useTheme"
 export default function AmmoSection({item, title, chartData }) {
   const { t } = useTranslation();
-
+  const { theme } = useTheme();
   const ammoFram = [
         {
             name: 'docs.ammo.type',
@@ -58,7 +59,7 @@ export default function AmmoSection({item, title, chartData }) {
         <div className="stat-two-column-right ammo">
           <Line
             data={chartData}
-            {...lineChartConfig('dist', 'value', 'dark', 'type', 'type')}
+            {...lineChartConfig('dist', 'value', theme, 'type', 'type')}
           />
         </div>
       </div>

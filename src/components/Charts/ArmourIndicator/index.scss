@@ -6,11 +6,16 @@
         box-sizing: border-box;
         width: calc(1rem + 1px);
         height: calc(3rem + 1px);
-        border-right: 1px dashed #fff;
+        border-right: 1px dashed rgb(var(--doc-menu-border-rgb));
         font-size: 0.7rem;
         // font-style: italic;
         .y-axis-text {
             transform: rotate(90deg);
+        }
+    }
+    .zhCn {
+        .y-axis-text {
+            transform: rotate(0deg);
         }
     }
     .x-axis-box {
@@ -31,7 +36,7 @@
         .x-axis {
             width: 100%;
             height: calc(1rem + 1px);
-            border-top: 1px dashed #fff;
+            border-top: 1px dashed rgb(var(--doc-menu-border-rgb));
             font-size: 0.7rem;
             font-style: italic;
         }

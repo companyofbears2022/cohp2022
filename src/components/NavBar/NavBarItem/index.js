@@ -59,7 +59,8 @@ export default function NavBarItem({item}) {
                     {t(item.name)}
                     {
                     hasChildren && (
-                        <img className="unfold-icon" src={arrowIcon} alt="more"></img>
+                        // <img className="unfold-icon" src={arrowIcon} alt="more"></img>
+                        <div className="unfold-icon iconfont icon-xiajiantou" alt="more"></div>
                     )
                 }
                 </span>

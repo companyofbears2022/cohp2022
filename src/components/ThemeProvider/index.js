@@ -24,7 +24,7 @@ export default function ThemeProvider({children}) {
     }, [theme])
 
     return (
-        <ThemeContext.Provider value={{toggleTheme}}>
+        <ThemeContext.Provider value={{theme, toggleTheme}}>
             { children }
         </ThemeContext.Provider>
     )

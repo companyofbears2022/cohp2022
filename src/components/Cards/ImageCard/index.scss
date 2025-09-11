@@ -6,7 +6,7 @@
     grid-row-end: span 2;
     grid-auto-flow: row dense;
     box-sizing: border-box;
-    border: 1px solid #29393f;
+    border: 1px solid var(--img-box-border-color);
     position: relative;
     // margin-bottom: 5vh;
     overflow: hidden;
@@ -21,16 +21,16 @@
             content: '';
             height: 10rem;
             bottom: 0;
-            background: linear-gradient(to top, rgba(13,33,38,1), rgba(13,33,38,0));
+            background: linear-gradient(to top, rgba(var(--nav-background-musk-rgb),1), rgba(var(--nav-background-musk-rgb),0));
         }
         &:hover {
-            border:1px solid#ffb84f;
+            border:1px solid var(--highlight-text-color);
         }
 
         .time-text, .item-title {
             position: absolute;
             margin-left: 1rem;
-            color: rgb(220,220,220);
+            color: rgb(var(--doc-sub-title-font-rgb));
         }
         .time-text {
             bottom: 3rem;

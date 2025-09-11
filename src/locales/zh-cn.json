@@ -61,7 +61,7 @@
             "movdec_desc": "单位移动射击时，命中率会按此值降低",
             "seconWeap": "副武器",
             "hitrateText": "命中率",
-            "hitrateText1": "命中率（移动）",
+            "hitrateText1": "命中率(移动)",
             "deply": "部署时间",
             "deply_desc": "单位部署与收起所需时间",
             "attdir": "射界",
@@ -155,6 +155,8 @@
     },
     "hints": {
         "no_result": "无结果",
-        "rankX": "{{rank}}阶"
+        "rankX": "{{rank}}阶",
+        "vertical": "垂直面",
+        "horizontal": "水平面"
     }
 }

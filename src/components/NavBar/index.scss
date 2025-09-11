@@ -1,13 +1,21 @@
 @use '@/assets/styles/_bullet.scss' as bullet;
-
-.nav-bar {
+.nav-bar-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     z-index: 15;
     position: fixed;
-    width: 100vw;
     top: 0;
     left: 0;
+    background: linear-gradient(180deg,rgba(var(--nav-background-rgb),.85),transparent);
+
+}
+.nav-bar {
+    max-width: 100rem;
+
+    width: 100vw;
+
     padding: 2rem 2rem 3rem;
-    background: linear-gradient(180deg,rgba(0,0,0,.85),transparent);
     display: flex;
     align-items: center;
 
@@ -39,7 +47,9 @@
     }
 }
 
-
+// :root[data-theme="light"] .nav-bar {
+//     border-bottom: 1px solid rgba(#000, 0.5);
+// }
 
 @media (max-width: 960px) {
     .nav-bar {
@@ -71,7 +81,7 @@
 
     .nav-unfolded {
         flex-wrap: wrap;
-        background: linear-gradient(180deg,rgba(0,0,0,.85),rgba(0,0,0,.35));
+        background: linear-gradient(180deg,rgba(var(--nav-background-rgb),.85),rgba(var(--nav-background-rgb),.35));
 
         .nav-bar-item-wrapper {
             display: flex;

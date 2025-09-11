@@ -1,8 +1,10 @@
 .collapse-sub-menu {
     margin: 0.5rem 1rem;
     color: var(--secon-title-font-color);
+    transition: all 0.2s ease-in-out;
     &:hover {
         text-indent: 1em;
+
             font-style: italic;
             background-color: var(--doc-background-hov);
             color: var(--doc-title-font-hov);
@@ -15,4 +17,5 @@
 }
 .sub-menu-is-selected {
     color: var(--highlight-text-color);
+
 }

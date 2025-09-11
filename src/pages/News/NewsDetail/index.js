@@ -12,14 +12,14 @@ export default function NewsDetail() {
     const navigate = useNavigate()
     const [searchParams] = useSearchParams()
     const id = searchParams.get('id');
-    console.log('id',id);
+    // console.log('id',id);
     
     const { artJson, getLanguage, fetchArticle } = useStore()
     
     const language = getLanguage()
     useEffect(() => {
         fetchArticle(language, id)
-    }, [])
+    }, [language, id])
 
 
     function handleClickBack() {
@@ -33,6 +33,7 @@ export default function NewsDetail() {
             <NavBar></NavBar>
 
             <Article 
+            name={'nav.news'}
             json={artJson}
             handleClickBack={handleClickBack}
             handleClickHome={handleClickHome}

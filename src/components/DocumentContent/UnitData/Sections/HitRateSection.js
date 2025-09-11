@@ -2,9 +2,11 @@ import Tooltip from "@/components/Tooltip";
 import { useTranslation } from "react-i18next";
 import { Line } from "@ant-design/plots";
 import { lineChartConfig } from "@/utils/chartConfig";
+import useTheme from "@/hooks/useTheme";
 
 export default function HitRateSection({item, title, framework, chartData }) {
   const { t } = useTranslation();
+  const { theme } = useTheme()
   return (
     <section className="stat-section">
       <h3 className="stat-section-title">{title}</h3>
@@ -22,7 +24,7 @@ export default function HitRateSection({item, title, framework, chartData }) {
         <div className="stat-two-column-right">
           <Line
             data={chartData}
-            {...lineChartConfig('dist', 'value', 'dark', 'type', 'type')}
+            {...lineChartConfig('dist', 'value', theme, 'type', 'type')}
           />
         </div>
       </div>
