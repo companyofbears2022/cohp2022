@@ -1,0 +1,445 @@
+{
+    "id": 1,
+    "title": "Map Introduction",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Greetings, commanders! In this section of tutorial, we will bring you the intelligences of all of the 7 maps in this mod. "
+        },
+        {
+            "type": 0,
+            "content": "Shore Scramble"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Training Ground"
+                },
+                {
+                    "content": "Small"
+                },
+                {
+                    "content": "4v4"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ A classic map made by MP97, this pocket-sized 'newbie village' for getting familiar with gameplay. One gimmick push usually ends the match in ninety seconds—zero strategic depth. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map4.png",
+            "content": "map1"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Guarding the Rhine"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Beginner's Village"
+                },
+                {
+                    "content": "Large"
+                },
+                {
+                    "content": "5v5"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ The gold-standard tutorial map. Flawless balance, comfy in 4v4s, split into three clearly-defined theatres: East (head-on brawl), West (support/arty), and North Africa (flank & harass). Weather events keep every game fresh; the perfect classroom for learning solid fundamentals. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map1.png",
+            "content": "map2"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Hotton Bloodbath"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Street Fight"
+                },
+                {
+                    "content": "Large"
+                },
+                {
+                    "content": "4v4"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ The next-level crash course in urban entrenched warfare. Mortars, howitzers and curved-fire units rule the tight alleys—if you can micro them. Fast, brutal, and best played 3v3 or bigger. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map2.png",
+            "content": "map3"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Ardennes Outskirts"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Strong Grind"
+                },
+                {
+                    "content": "Medium"
+                },
+                {
+                    "content": "4v4"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ A map that rewards trench-holding more than flanking. Victory hinges on locking down a handful of brick-and-mortar landmarks, making it ideal for practicing emplacement play—just don’t bring tanks; the hedgerows will eat them alive. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map3.png",
+            "content": "map4"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Hamburger Hafen"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Firepower Showdown"
+                },
+                {
+                    "content": "Medium"
+                },
+                {
+                    "content": "4v4"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ A ladder-style map ported from the PC original, notorious for sneaky side-path raids and resource-point lockdowns that quickly become oppressive. The main battleground sits dead-center: almost the only viable fights are full-team slugfests, where coordination must be pixel-perfect and a single misplay snowballs into defeat. From the first second to the last, both teams are locked in a single, unforgiving kill-box. High APM is mandatory, and stalemates devolve into brutal, head-to-head artillery duels. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map5.png",
+            "content": "map5"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 4
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Red Ball Express"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Classic Confrontation"
+                },
+                {
+                    "content": "Large"
+                },
+                {
+                    "content": "5v5"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ A well-rounded, ladder-grade map straight from the PC original, perfect for drilling team coordination. It fast-tracks your game sense: set up emplacements to lock down points, curve-fire to suppress, and spar along the Löhleins Corridor in armor chess. Fight for the secondary resource hubs or commit to the main push—classic red-vs-blue, attack-and-pull teamwork distilled. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map6.png",
+            "content": "map6"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Stalingrad"
+        },
+        {
+            "type": 8,
+            "contents": [
+                {
+                    "content": "Fight to death"
+                },
+                {
+                    "content": "Large"
+                },
+                {
+                    "content": "5v5"
+                }
+            ]
+        },
+        {
+            "type": 7,
+            "content": "“ A turbo-choked frontline trench map built for grinding assault squads, curved-fire emplacements, and sprawling kill-zones. Because the battlefield is so vast, newcomers get miles of slack—everyone finds a scrap to swing in the multi-player mayhem. Rarely do equal skills cancel each other into stalemate, so rounds stay short, loud, and always moving. ”"
+        },
+        {
+            "type": 6,
+            "url": "https://companyofbears2022.github.io/cohp2022//cohp2022/data/imgs/maps/map7.png",
+            "content": "map7"
+        },
+        {
+            "type": 5,
+            "content": "Difficulty:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Fun Factor:"
+        },
+        {
+            "type": 4,
+            "rate": 3
+        },
+        {
+            "type": 5,
+            "content": "Technical Demand:"
+        },
+        {
+            "type": 4,
+            "rate": 1
+        },
+        {
+            "type": 5,
+            "content": "Domination Potential:"
+        },
+        {
+            "type": 4,
+            "rate": 2
+        },
+        {
+            "type": 9
+        }
+    ]
+}
