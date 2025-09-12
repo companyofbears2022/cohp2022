@@ -1,37 +1,46 @@
 {
     "id": 1,
-    "title": "test set stets tsettestett",
-    "time": "2025-08-21",
+    "title": "Official Website Put Into Use",
+    "time": "2025-09-12",
     "content": [
         {
             "type": 1,
-            "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+            "content": "Greetings, commanders! After a period of tensive development and testing, our new Website finally put into use."
         },
         {
             "type": 0,
-            "content": "Testtetstettet ttttt tetetettetetet"
+            "content": "What's new?"
         },
         {
             "type": 1,
-            "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+            "content": "A dedicated Tutorial page now walks newcomers through their first steps in COHP, while the new Units page lays out every stat in a side-by-side, easy-to-compare format so you can theory-craft at a glance."
+        },
+        {
+            "type": 1,
+            "content": "We've also finished the jobs in internationalization support and a one-click theme switcher. In short, the site is built to give you the smoothest, most comfortable command experience we’ve ever offered."
         },
         {
             "type": 0,
-            "content": "Major Improvement: "
+            "content": "Roadmap"
+        },
+        {
+            "type": 1,
+            "content": "We're still hard at work on the next wave of features and quality of user-experience upgrades. Here's what's next on the roadmap:"
         },
         {
             "type": 2,
             "contents": [
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa."
+                "A faster, smoother, “just-flows” feel across every click and scroll",
+                "More unit data fields shown in 'Units' page",
+                "An interactive armor-hit simulator: pick attacker, target, range, and see the damage odds instantly"
             ]
         },
         {
-            "type": 3,
-            "content": "UrlUrlr ru rrrrlrl",
-            "url": "https://www.baidu.com/"
+            "type": 9
+        },
+        {
+            "type": 1,
+            "content": "Thanks for your support!"
         }
     ]
 }

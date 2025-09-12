@@ -1,0 +1,47 @@
+{
+    "id": 1,
+    "title": "Resource System",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Resource System is an essential part in all RTS games. In this section you will learn the main three types of resources in COHP, as well as concepts such as maintenance fees and population limits."
+        },
+        {
+            "type": 0,
+            "content": "Three Main Resources"
+        },
+        {
+            "type": 1,
+            "content": "The main resources of this mod are Manpower, Munition, and Fuel. "
+        },
+        {
+            "type": 2,
+            "contents": [
+                "Manpower: Manpower is a necessary resource for producing units, building buildings, and reinforcing squads. It is obtained from the command center, Manpower Points, and some faction's resource buildings.",
+                "Munition: Munition is a resource consumed when upgrading units and using skills. It is obtained from the command center, Munition Points, and Weapon Points.",
+                "Fuel: Fuel is a resource consumed when building advanced buildings, upgrading, and mobilizing armored vehicles. It is obtained from the command center, Fuel Points, and Fuel Points. Some faction's commanders can recycle battlefield debris to obtain fuel."
+            ]
+        },
+        {
+            "type": 0,
+            "content": "Maintance Fee"
+        },
+        {
+            "type": 1,
+            "content": "In the HUD, the red text on the right side of the Manpower resource is the player's current maintenance fee. \nThe operation of the army requires the support of manpower. Each unit consumes a certain maintenance fee, and the more units deployed, the slower the increase in manpower. The maintenance fee required for different types of units is different. Generally, the more powerful the unit, the higher the maintenance fee required. "
+        },
+        {
+            "type": 1,
+            "content": "Fortunately, maintenance fees have a maximum limit, and once the limit is reached, the maintenance fees will no longer increase. The maintenance fee limit for each faction is different."
+        },
+        {
+            "type": 0,
+            "content": "Population Limit"
+        },
+        {
+            "type": 1,
+            "content": "In the HUD, the middle part of the top displays the player's current population and the maximum population limit. \nThe population limit is the maximum number of units that can be deployed in the game. Once the population reaches the limit, the player will not be able to deploy new units and cannot reinforce the deployed units. \nThe population limit is different for each faction."
+        }
+    ]
+}

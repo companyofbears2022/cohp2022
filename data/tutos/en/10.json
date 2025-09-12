@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "title": "The Finale",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "This is the last section of the tutorial. Congratulations, commanders! You have graduated from COHP Military Academy, and now you can lead your soldiers to participate in battles and witness the bloody and stormy times of 80 years ago."
+        },
+        {
+            "type": 1,
+            "content": "Thanks for your patience!"
+        }
+    ]
+}

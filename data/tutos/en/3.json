@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "title": "Tips Before Battle",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "COHP is quiet different from many other mods, so it's better to takes a few minutes to understand the game's rule. Here is a few tips you need to know before you start a game."
+        },
+        {
+            "type": 0,
+            "content": "Choose Official Map"
+        },
+        {
+            "type": 1,
+            "content": "This mod only works on Specially Made maps whose names start with [Official] or 【官方】, which are included in the mod package. Using the original maps will not make you experience the mod’s full content and gameplay. Please select them from the in-game 'Custom Maps' option. You can also download more maps from our Discord server."
+        },
+        {
+            "type": 0,
+            "content": "What's History Mode? / Why there is only Allies or Axis faction available?"
+        },
+        {
+            "type": 1,
+            "content": "By default, the game mode is historical Allies vs. Axis: odd-numbered teams are Allied, even-numbered teams are Axis. If you select the 'Free Adversarial Mode' in the 'Advanced' setup > 'Game Options' > 'Starting Units', the faction restrictions are lifted."
+        }
+    ]
+}

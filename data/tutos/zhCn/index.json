@@ -1,82 +1,82 @@
 [
     {
         "id": 1,
-        "title": "地图介绍",
+        "title": "模组简介",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 1",
-        "content": "指挥官们，在本节教程中，我们将为您带来本模组中所有7张地图的情报。"
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 1",
+        "content": "像素英雄连是一个以PC端游戏英雄连2作为参照，在铁锈战争的基础上制作的即时策略模组。模组以五个主要二战势力扮演指挥官，派遣你的单位摧毁敌方大本营即可获胜。目前的阵营有:英军、东德、苏联、西德。"
     },
     {
         "id": 2,
-        "title": "test set stets tsettestett1",
+        "title": "模组下载",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 2",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 2",
+        "content": "以下是获取最新版本mod的几种方法。下面，我们列出了三个最方便的。"
     },
     {
         "id": 3,
-        "title": "test set stets tsettestett2",
+        "title": "战前小贴士",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 3",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 3",
+        "content": "COHP与其他的许多模组截然不同，所以最好花几分钟时间来了解游戏的规则。以下是在开始游戏之前你需要知道的一些提示。"
     },
     {
         "id": 4,
-        "title": "test set stets tsettestett3",
+        "title": "地图介绍",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 4",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 4",
+        "content": "指挥官们，在本节教程中，我们将为您带来本模组中所有7张地图的情报。"
     },
     {
         "id": 5,
-        "title": "test set stets tsettestett4",
+        "title": "胜利条件",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 5",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 5",
+        "content": "在了解如何正确开始游戏后，现在我们可以深入探索COHP模组的基本游戏方法了。本节教程介绍了游戏中最基本的机制和获胜条件。"
     },
     {
         "id": 6,
-        "title": "test set stets tsettestett5",
+        "title": "资源系统",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 6",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 6",
+        "content": "资源系统是所有RTS游戏的重要组成部分。在本节中，您将学习COHP中的三种主要资源，以及维护费和人口限制等新概念。"
     },
     {
         "id": 7,
-        "title": "test set stets tsettestett6",
+        "title": "步兵机制（一）",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 7",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 7",
+        "content": "步兵是COHP的基本单位。本节将向您展示模组中步兵单位的伤害机制、命中率机制、闪避率机制与压制机制。"
     },
     {
         "id": 8,
-        "title": "test set stets tsettestett7",
+        "title": "步兵机制（二）",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 8",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 8",
+        "content": "步兵是COHP的基本单位。本节将向您展示模组中步兵单位的缴获机制、班组补员机制、治疗机制、经验升级机制、掩护系统以及撤退功能。"
     },
     {
         "id": 9,
-        "title": "test set stets tsettestett8",
+        "title": "装甲机制",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 9",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 9",
+        "content": "本节介绍了该模块中装甲部队的装甲机制和模块系统。"
     },
     {
         "id": 10,
-        "title": "test set stets tsettestett9",
+        "title": "终曲",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
-        "time": "教程 10",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
+        "time": "战斗教程 10",
+        "content": "这是本教程的最后一节。祝贺你们，指挥官们！你们已经从COHP军事学院毕业，现在你可以带领你的士兵参加战斗，见证80年前的血腥和暴风雨时代。"
     }
 ]

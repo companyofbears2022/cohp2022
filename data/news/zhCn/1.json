@@ -1,37 +1,46 @@
 {
     "id": 1,
-    "title": "测试测试",
-    "time": "2025-08-21",
+    "title": "国际版官网正式上线",
+    "time": "2025-09-12",
     "content": [
         {
             "type": 1,
-            "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+            "content": "问候，指挥官们！经过紧张的开发和测试，我们全新的网站正式上线。"
         },
         {
             "type": 0,
-            "content": "Testtetstettet ttttt tetetettetetet"
+            "content": "新特性"
         },
         {
             "type": 1,
-            "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+            "content": "一个专门设计的教程页面现在引导新手迈出进入COHP世界的第一步，而新的单位页面以详细、易于比较的格式列出了每个统计数据，这样你就可以一目了然地掌握单位之间的关系。"
+        },
+        {
+            "type": 1,
+            "content": "我们还完成了国际化支持和一键式主题切换器的工作。简而言之，该网站旨在为您提供我们有史以来最流畅、最舒适的使用体验。"
         },
         {
             "type": 0,
-            "content": "Major Improvement: "
+            "content": "路线图"
+        },
+        {
+            "type": 1,
+            "content": "我们仍在努力开发下一波功能和用户体验升级。以下是路线图上的下一步："
         },
         {
             "type": 2,
             "contents": [
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa.",
-                "Add aa aaa aaaaaaaa aaa aaa aa aaaaaaaaaaaaaaaaa aaaaa."
+                "更快、更流畅，每次点击和滚动都有一种流畅的感觉",
+                "更多单位数据字段显示在'单位'页面",
+                "交互式装甲命中模拟器：选择攻击者、目标、射程，并立即查看击中情况"
             ]
         },
         {
-            "type": 3,
-            "content": "UrlUrlr ru rrrrlrl",
-            "url": "https://www.baidu.com/"
+            "type": 9
+        },
+        {
+            "type": 1,
+            "content": "感谢您的支持！"
         }
     ]
 }

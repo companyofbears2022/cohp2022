@@ -1,82 +1,82 @@
 [
     {
         "id": 1,
-        "title": "Map Introduction",
+        "title": "What's COHP?",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 1",
-        "content": "Greetings, commanders! In this section of tutorial, we will bring you the intelligences of all of the 7 maps in this mod."
+        "content": "Company of Heroes Pixel (COHP) is a real-time strategy mod based on the PC game Company of Heroes 2. Players command one of five WWII factions—currently the British Forces, the Wehrmacht, the Soviet Union, and the Oberkommando West—and lead their armies to destroy enemy strongholds or capture control points."
     },
     {
         "id": 2,
-        "title": "test set stets tsettestett1",
+        "title": "About Dowload",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 2",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Here are several ways to get the latest version of the mod. Below, we've listed three of the most convenient."
     },
     {
         "id": 3,
-        "title": "test set stets tsettestett2",
+        "title": "Tips Before Battle",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 3",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "COHP is quiet different from many other mods, so it's better to takes a few minutes to understand the game's rule. Here is a few tips you need to know before you start a game."
     },
     {
         "id": 4,
-        "title": "test set stets tsettestett3",
+        "title": "Map Introduction",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 4",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Greetings, commanders! In this section of tutorial, we will bring you the intelligences of all of the 7 maps in this mod."
     },
     {
         "id": 5,
-        "title": "test set stets tsettestett4",
+        "title": "Victory Condition",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 5",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Now we can explore the basic gaming method of the module. This section of tutorial contains an introduction to the most basic mechanisms and victory conditions in the game."
     },
     {
         "id": 6,
-        "title": "test set stets tsettestett5",
+        "title": "Resource System",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 6",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Resource System is an essential part in all RTS games. In this section you will learn the main three types of resources in COHP, as well as concepts such as maintenance fees and population limits. "
     },
     {
         "id": 7,
-        "title": "test set stets tsettestett6",
+        "title": "Infantry Mechanism I",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 7",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Infantry is the basic unit in COHP. This section will show you the damage mechanism, hit rate mechanism, evasion rate mechanism, suppression mechanism of infantry units in the mod."
     },
     {
         "id": 8,
-        "title": "test set stets tsettestett7",
+        "title": "Infantry Mechanism II",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 8",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "Infantry is the basic unit in COHP. This section will show you the seize mechanism, reinforcement mechanism, treatment mechanism, veterancy system mechanism, cover system as well as retreat function of infantry units in the mod."
     },
     {
         "id": 9,
-        "title": "test set stets tsettestett8",
+        "title": "Armour Mechanism",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 9",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "This section introduces the armor mechanism and module system of armor units in the mod."
     },
     {
         "id": 10,
-        "title": "test set stets tsettestett9",
+        "title": "The Finale",
         "description": "",
-        "imgUrl": "https://cobw.oss-cn-hangzhou.aliyuncs.com/pic/prev11.png",
+        "imgUrl": "https://companyofbears2022.github.io/cohp2022/data/imgs/covers/1.png",
         "time": "Lesson 10",
-        "content": "Greetings, commanders! As we promised in our first Outlisted, here is the latest list of players who have been banned for using forbidden modifications based on your complaints, here is the latest list of players who have been banned for using forbidden modifications based on your complaints."
+        "content": "This is the last section of the tutorial. Congratulations, commanders! You have graduated from COHP Military Academy, and now you can lead your soldiers to participate in battles and witness the bloody and stormy times of 80 years ago."
     }
 ]

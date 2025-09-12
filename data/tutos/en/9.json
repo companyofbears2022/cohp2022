@@ -1,0 +1,52 @@
+{
+    "id": 1,
+    "title": "Armour Mechanism",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "This section introduces the armor mechanism and module system of armor units in the mod."
+        },
+        {
+            "type": 0,
+            "content": "Four Sided Armor"
+        },
+        {
+            "type": 1,
+            "content": "The armor of tanks in this mod is very detailed, with different thicknesses of armor on the front, side, and rear sides, and different lean angles of armor on each side. \nSome tanks have 2 armour plate in one side, if you want to know the detail of a tank's armour distribution, you can take a look at 'Units' page, which displays unit's data in an intuitive and highly comparable approach. "
+        },
+        {
+            "type": 3,
+            "content": "Units Page",
+            "url": "https://companyofbears2022.github.io/cohp2022/#/documents/0/0"
+        },
+        {
+            "type": 1,
+            "content": "Each time a tank is hit by a shell, the hit part will be calculated, and the effective armor of the hit part will be calculated based on the armor thickness, the inclination angle of the armor, and the angle of the incoming shell. \nWhen the final incoming angle is less than 19 degrees, if the final penetration depth of the shell is less than 3 times the vertical thickness of the armor plate, it is determined to be a ricochet, and if it is greater than 3 times, it is determined to be penetrated based on the effective armor."
+        },
+        {
+            "type": 1,
+            "content": "In short, bigger lean of armor with careful angle adjustment are easier to ricochet.\nTherefore, you can finely operate the tank by adjusting the body angle to change the possible hit location and the incident angle of the incoming shell, thus changing the effective armor thickness when hit, and the fine operation makes your tank able to win with less, breaking the deadlock."
+        },
+        {
+            "type": 0,
+            "content": "Module System"
+        },
+        {
+            "type": 1,
+            "content": "The armor units have two modules: the track and the engine. When they are hit, the modules may be damaged, depending on the hit location (for most armor units, hitting the rear is more likely to damage the engine, and hitting the side is more likely to damage the track) and the power of the shell. "
+        },
+        {
+            "type": 1,
+            "content": "When the track or engine is damaged, the speed of the armor unit decreases, and it cannot move when it is destroyed. \nThe modules can be repaired by engineers and repair stations (the repair mode needs to be opened)."
+        },
+        {
+            "type": 0,
+            "content": "Repair"
+        },
+        {
+            "type": 1,
+            "content": "Damaged armored units can be repaired by maintenance units (engineers, as well as units with repair functions, which are generally explained in the unit introduction). \nBefore repairing, it is necessary to turn on the Repair Mode of the armored unit, then bring the maintenance unit closer to the armored unit and click the repair button. \nThe maintenance unit will automatically repair the unit and search for nearby repairable units to continue repairing after the repair is completed. \nThe more units involved in maintenance at the same time, the faster the maintenance speed."
+        }
+    ]
+}

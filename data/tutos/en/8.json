@@ -1,0 +1,75 @@
+{
+    "id": 1,
+    "title": "Infantry Mechanism II",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Infantry is the basic unit in COHP. This section will show you the seize mechanism, reinforcement mechanism, treatment mechanism, veterancy system mechanism, cover system as well as retreat function of infantry units in the mod."
+        },
+        {
+            "type": 0,
+            "content": "Seize"
+        },
+        {
+            "type": 1,
+            "content": "When a squad like a heavy machine gun, mortar, or a emplacement is completely destroyed, it enters the seizable state.\n At this time, select a squad of infantry, click on the seized unit, and wait for a moment to seize the unit (ensure that the population is not full). \nEngineers can also use the repair seize function to seize enemy tanks that are not completely destroyed."
+        },
+        {
+            "type": 0,
+            "content": "Reinforcement"
+        },
+        {
+            "type": 1,
+            "content": "When a squad is not fully staffed, it can be reinforced by a supply unit (the command center and units with reinforcement functions, which will be mentioned in the unit description). \nReinforcing members will consume manpower and require a certain amount of time. "
+        },
+        {
+            "type": 0,
+            "content": "Treatment"
+        },
+        {
+            "type": 1,
+            "content": "When a squad member is injured and has less than 100% health, the squad can be treated by a medical unit (the command center and units with medical functions, which will be mentioned in the unit description). \nGet close to a treatable unit to get treatment. \nAll members of the squad will be treated, and the health of all surviving and injured members will be restored by a certain percentage per second."
+        },
+        {
+            "type": 0,
+            "content": "Veterancy System"
+        },
+        {
+            "type": 1,
+            "content": "Veterancy is an experience system for units. A unit gathers veterancy experience by making and receiving damage.\nOnce it gathers enough experience, it will get to veterancy 1 (Lv_1 / 1 star).\nThe more veterancy your units gather, the stronger they are, hence why it is so important to keep them alive, as a veterancy 3 unit would crush the same unit veterancy 0. It can be quite literally game changing.\nDifferent units have different upgrade speeds, and the higher the veterancy level, the slower the upgrade speed."
+        },
+        {
+            "type": 0,
+            "content": "Taking Cover"
+        },
+        {
+            "type": 1,
+            "content": "When a unit is in a cover or is near some cover units, it will receive a bonus to evasion and armor. \nThe cover can be provided by the terrain, buildings, and some units."
+        },
+        {
+            "type": 2,
+            "contents": [
+                "The cover provided by the terrain is the most common, such as trees and grass on the map. Most terrain units can provide a 20% bonus to evasion and a small amount of armor bonus to infantry squads.",
+                "Some buildings, such as houses and fortifications, can provide a 30% bonus to evasion and a small amount of armor bonus to infantry squads.",
+                "Some units can build cover, such as sandbags and trenches, which can provide different degrees of cover effect to infantry squads."
+            ]
+        },
+        {
+            "type": 1,
+            "content": "The evasion rate is displayed as a yellow shield and a green shield on the lower left corner of the unit icon. The yellow shield represents a 20% evasion rate, and the green shield represents a 30% evasion rate. Units in yellow and green shield states will also receive a certain amount of armor damage reduction."
+        },
+        {
+            "type": 0,
+            "content": "Retreat"
+        },
+        {
+            "type": 1,
+            "content": "When a squad is severely damaged or surrounded by suppression, you can choose to Retreat to save your squad. \nClicking the 'retreat' button will ignore all suppression effects and immediately stand up and retreat to the command center or the nearest retreat gathering point. \nDuring the retreat state, the unit cannot continue to attack and cannot receive player commands. When the unit reaches the command center or the nearest retreat gathering point, the retreat state will end. "
+        },
+        {
+            "type": 1,
+            "content": "During the retreat state, the unit's movement speed increases by 40%, and the evasion rate increases by 30%. \nIn most cases, it is more cost-effective to reinforce members after retreat than to produce a new squad."
+        }
+    ]
+}
