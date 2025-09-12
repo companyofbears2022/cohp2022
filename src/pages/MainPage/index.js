@@ -38,16 +38,20 @@ export default function MainPage() {
     function navigateToTutos() {
         navigate('/tutorials')
     }
+
+    const onJumpToTutorial = (path) => {
+        navigate(`/tutorials/${path}`)
+    }
     return (
         <div className="main-page">
             <NavBar></NavBar>
             <BackgroundPlayer pictureList={pictureList}>
                 <LogoBox></LogoBox>
                 <div className="download-btn">
-                    <PrimaryButton text={t('actions.download')}></PrimaryButton>
+                    <PrimaryButton text={t('actions.download')} handleClick={() => {onJumpToTutorial('detail?id=2')}}></PrimaryButton>
                 </div>
                 <div className="download-btn">
-                    <InfoButton text={t('actions.download')}></InfoButton>
+                    <InfoButton text={t('actions.desc')} handleClick={() => {onJumpToTutorial('detail?id=1')}}></InfoButton>
                 </div>
             </BackgroundPlayer>
 

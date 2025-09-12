@@ -12,6 +12,10 @@ export const createTutosSlice = ( set, get ) => ({
         "title": "",
         "content": []
     },
+    tutoCurrentPage: 1,
+    setTutoCurrentPage: (page) => {
+        set({tutoCurrentPage: page})
+    },
     fetchTutosList: async (language, currentPage, pageSize) => {
 
         const { tutosListTotal } = get()

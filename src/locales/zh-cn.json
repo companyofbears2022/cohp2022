@@ -8,9 +8,11 @@
         "community": "社区"
     },
     "headers": {
-        "news": "最新资讯"
+        "news": "最新资讯",
+        "tutorial": "教程"
     },
     "actions": {
+        "desc": "模组介绍",
         "download": "下载模组",
         "more": "更多",
         "search": "搜索...",

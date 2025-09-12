@@ -1,0 +1,59 @@
+{
+    "id": 1,
+    "title": "模组下载",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "以下是获取最新版本mod的几种方法。下面，我们列出了三个最方便的。"
+        },
+        {
+            "type": 0,
+            "content": "Discord：我们的新官方频道"
+        },
+        {
+            "type": 1,
+            "content": "在几周前推出，Discord官方频道不仅提供了最新的COHP模组下载途径，还提供了由我们的开发团队和社区创建的不断增长的地图库。欢迎大家的加入。"
+        },
+        {
+            "type": 3,
+            "content": "点击我加入我们的Discord服务器！",
+            "url": "https://discord.gg/WYBaqT9FQt"
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Steam创意工坊：最简单的选择"
+        },
+        {
+            "type": 1,
+            "content": "只需点击下面的链接，然后在Steam Workshop中点击“订阅”。从那时起，每个补丁都会自动下载；你永远不必再到处寻找更新链接。"
+        },
+        {
+            "type": 3,
+            "content": "点击我订阅Steam创意工坊！",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3527922181"
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "QQ群：面向中国玩家"
+        },
+        {
+            "type": 1,
+            "content": "QQ是中国最受欢迎的即时通讯工具。如果你想与中国玩家组队，请单击下面的链接并加入该群。"
+        },
+        {
+            "type": 3,
+            "content": "点击我加入我们的QQ群！",
+            "url": "https://qm.qq.com/q/C4aTqurjmo"
+        },
+        {
+            "type": 9
+        }
+    ]
+}

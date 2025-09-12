@@ -6,28 +6,35 @@ import CardListGrid from '@/components/Cards/CardsListGrid'
 import Pagination from '@/components/Pagination'
 import { useNavigate } from 'react-router-dom'
 import { pageSize } from '@/utils/constants' 
+import { scrollToTop } from '@/utils/tools'
 
 export default function Tutorials() {
     const [currentPage, setCurrentPage] = useState(1)
     const navigate = useNavigate()
 
-    const { language, tutosList, fetchTutosList, getLanguage, getTutosListTotal } = useStore()
+    const { language, tutosList, fetchTutosList, getLanguage, getTutosListTotal, tutoCurrentPage, setTutoCurrentPage } = useStore()
 
     const total = getTutosListTotal()
     // console.log('total',total);
     
     function handleClick(id) {
         navigate(`/tutorials/detail?id=${id}`)
+        setTutoCurrentPage(currentPage)
     }
 
     useEffect(() => {
-        console.log(language);
+        // console.log(language);
         
         fetchTutosList(language, currentPage, pageSize)
     },[language])
     // console.log(newsList)
 
+    useEffect(() => {
+        changePage(tutoCurrentPage)
+    }, [])
+
     function changePage(index) {
+        scrollToTop()
         setCurrentPage(index)
         fetchTutosList(getLanguage(), index, pageSize)
     }

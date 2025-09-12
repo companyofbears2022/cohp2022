@@ -3,9 +3,7 @@ import './NavBarItem/index'
 import NavBarItem from './NavBarItem/index'
 import logo from '@/assets/logo.png'
 import logo_dark from '@/assets/logo_dark.png'
-import listLogo from '@/assets/list.svg'
-import cancelLogo from '@/assets/cancel_small.svg'
-import { useState, useContext } from 'react'
+import { useState } from 'react'
 import classNames from 'classnames'
 import useMediaQuery from '../../hooks/useMediaQuery'
 import { useNavigate } from 'react-router'
@@ -81,6 +79,8 @@ export default function NavBar() {
                     i18n.changeLanguage(value)
                     localStorage.setItem('language',value)
                     setLanguage(value)
+                    document.documentElement.lang = i18n.language;
+
                 }
             },
             children: [
@@ -103,15 +103,15 @@ export default function NavBar() {
             children: [
                 {
                     name: 'community.discord',
-                    value: 'https://www.baidu.com/'
+                    value: 'https://discord.gg/WYBaqT9FQt'
                 },
                 {
                     name: 'community.steam',
-                    value: 'https://www.baidu.com/'
+                    value: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3527922181'
                 },
                 {
                     name: 'community.qq',
-                    value: 'https://www.baidu.com/'
+                    value: 'https://qm.qq.com/q/C4aTqurjmo'
                 }
             ]
         }

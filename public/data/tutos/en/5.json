@@ -1,0 +1,60 @@
+{
+    "id": 1,
+    "title": "Victory Condition",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Now we can explore the basic gaming method of the module. This section of tutorial contains an introduction to the most basic mechanisms and victory conditions in the game."
+        },
+        {
+            "type": 0,
+            "content": "Game Object"
+        },
+        {
+            "type": 1,
+            "content": "The first very objective of this mod is to destroy the enemy player's base: once the base is destroyed, all units of the player will also self destruct together; The second is to occupy Victory points, which can earn Victory Points (VP). The team with the VP percentage reaching 100% first wins. Destroying player bases and occupying Victory Points can both achieve victory, generally speaking, occupying Victory points is a better strategy."
+        },
+        {
+            "type": 0,
+            "content": "Victory Points"
+        },
+        {
+            "type": 1,
+            "content": "At the top of the HUD, the red and blue scores on the left are the victory points (VP) percentage of both sides. \nRed represents the enemy's percentage of victory points, while blue represents our own percentage of victory points. \nOdd-numbered teams share the same VP score, while even-numbered teams share another VP score. "
+        },
+        {
+            "type": 1,
+            "content": "Winning points (VP) are obtained by occupying victory points, and the first team with the VP percentage reaching 100% wins. \nThe more victory points occupied, the faster the speed of obtaining victory points. When both sides occupy the same number of Victory Points, they cannot obtain victory points."
+        },
+        {
+            "type": 0,
+            "content": "Territory Points"
+        },
+        {
+            "type": 1,
+            "content": "There are four different types of territory points, namely: Victory Point, Manpower Point, Munition Point, and Fuel Point."
+        },
+        {
+            "type": 2,
+            "contents": [
+                "Victory Point: A large territory point on the map with a flagpole standing upright. Generally, there are four victory points A, B, C, and D on the map. Occupying it can earn victory points (VP). ",
+                "Manpower Points: Occupying it can obtain manpower, which is a necessary resource for production units, building construction, and reinforce the squad. Manpower also provide a small number of victory points. ",
+                "Munition Point: Occupying it can earn munition, which are mainly resources consumed when upgrading units and using skills. ",
+                "Fuel Point: Occupying it can obtain fuel, which is a resource consumed on the construction of advanced buildings, upgrades, and armored vehicles. "
+            ]
+        },
+        {
+            "type": 1,
+            "content": "Occupying these territory points can provide resource to all players in your team. \nThe second row of the HUD displays the number of Manpower Points, Munition Points, and Fuel Points occupied by your team."
+        },
+        {
+            "type": 0,
+            "content": "Occupation Mechanism"
+        },
+        {
+            "type": 1,
+            "content": "Only infantry squad can occupy territory points (some special units, such as VM82, can also occupy points). \nAfter sending a squad of infantry into a territory point, the occupation progress will begin to increase. When the progress is full, the territory point is occupied. \nThe more squads in the territory point, the faster the occupation speed. When there are both enemy and friendly infantry in a territory point, the territory point cannot be occupied."
+        }
+    ]
+}

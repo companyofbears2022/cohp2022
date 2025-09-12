@@ -6,6 +6,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import useStore from '@/store'
 import { useNavigate } from 'react-router-dom'
+import { scrollToTop } from '@/utils/tools'
 
 export default function NewsDetail() {
 
@@ -21,6 +22,9 @@ export default function NewsDetail() {
         fetchArticle(language, id)
     }, [language, id])
 
+    useEffect(() => {
+        scrollToTop()
+    }, [])
 
     function handleClickBack() {
         navigate('/news')

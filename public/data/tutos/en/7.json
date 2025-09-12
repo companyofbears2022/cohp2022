@@ -1,0 +1,82 @@
+{
+    "id": 1,
+    "title": "Infantry Mechanism I",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Infantry is the basic unit in COHP. This section will show you the damage mechanism, hit rate mechanism, evasion rate mechanism, suppression mechanism of infantry units in the mod."
+        },
+        {
+            "type": 0,
+            "content": "Damage Types"
+        },
+        {
+            "type": 1,
+            "content": "There are 2 basic damage types in this mod: Normal Damage and High Explosive Damage. From these, 2 other damage types are derived: Sniper Damage and Flame Damage. Below, we will introduce them one by one."
+        },
+        {
+            "type": 2,
+            "contents": [
+                "Normal Damage: When a unit is hit by a weapon of this damage type, it will calculate whether it is hit based on the accuracy and combat distance of the attacking weapon. If it is determined to be hit, a randomly selected member of the squad will take the damage, and other members will not be affected. Rifles, submachine guns, machine guns, etc. are all normal damage. ",
+                "High Explosive Damage: When a unit is hit by a weapon of this damage type, it will definitely take damage, and all members of the squad will take the same damage. Grenades, mortar shells, etc. are all high explosive damage.",
+                "Sniper Damage: Sniper damage is a special variant of normal damage, with a 100% hit rate and cannot be evaded.",
+                "Flame Damage: Flame damage is a special high explosive damage, which will continuously damage infantry."
+            ]
+        },
+        {
+            "type": 0,
+            "content": "Hit Rate"
+        },
+        {
+            "type": 1,
+            "content": "In this mod, all infantry squads will perform a hit check when they are attacked by weapons of normal damage. If the hit check fails, they will not take the damage. "
+        },
+        {
+            "type": 2,
+            "contents": [
+                "Hit rate calculation formula: Actual hit rate = weapon distance coefficient * (basic hit rate - movement penalty) - unit evasion rate"
+            ]
+        },
+        {
+            "type": 1,
+            "content": "The hit rate is mainly affected by 4 factors: "
+        },
+        {
+            "type": 2,
+            "contents": [
+                "Basic hit rate: The higher the basic hit rate of the weapon, the greater the hit probability.",
+                "Weapon decay coefficient: The weapon decay coefficient determines the speed at which the hit rate of the weapon decreases with increasing combat distance. Generally, the decay coefficient of close-range weapons such as submachine guns is higher, while the decay coefficient of long-range weapons such as bolt-action rifles is lower. Therefore, submachine guns need to get closer to the enemy to better unleash its power.",
+                "Movement penalty: The accuracy of weapons in motion is reduced.",
+                "Squad's evasion: The higher the evasion, the lower the hit probability. The cover units can provide different degrees of evasion for the squad."
+            ]
+        },
+        {
+            "type": 0,
+            "content": "Evasion Rate"
+        },
+        {
+            "type": 1,
+            "content": "Evasion rate is an important component of the hit mechanism in this mod. \nMost teams have a 10% evasion rate under normal conditions, and yellow suppression and red suppression will give the team a 20% and 30% dodge rate, respectively. \nIn addition, terrain units can also affect the unit's dodge rate. Teams located near environmental terrain and entering houses will receive additional evasion rate bonuses."
+        },
+        {
+            "type": 0,
+            "content": "Suppression"
+        },
+        {
+            "type": 1,
+            "content": "Some weapons can cause suppression on your infantry squad, usually heavy machine guns or curved artillery. \nThere are 2 types of suppression states for squads: Yellow Suppression and Red Suppression. "
+        },
+        {
+            "type": 2,
+            "contents": [
+                "In yellow suppression state (the yellow exclamation mark above the unit icon), the squad's range is halved, movement speed is reduced by 40%, and shooting speed is slowed down by 3 times, but the evasion rate increases to 20%; ",
+                "In red suppression state (the red exclamation mark above the unit icon), the squad cannot move, but the evasion rate increases to 30%. "
+            ]
+        },
+        {
+            "type": 1,
+            "content": "Different squads have different suppression resistance. The higher the suppression resistance, the higher the resistance to suppression. and longer the time to resist suppression, which means the less likely the unit is to enter the suppression state.\nSmoke grenades, entering some buildings, and some special skills of units can temporarily immune suppression."
+        }
+    ]
+}

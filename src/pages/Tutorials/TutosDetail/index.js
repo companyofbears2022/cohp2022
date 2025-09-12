@@ -7,6 +7,8 @@ import { useState, useEffect } from 'react'
 import useStore from '@/store'
 import { useNavigate } from 'react-router-dom'
 
+import { scrollToTop } from '@/utils/tools'
+
 export default function TutosDetail() {
 
     const navigate = useNavigate()
@@ -20,6 +22,9 @@ export default function TutosDetail() {
         fetchTutorial(language, id)
     }, [language, id])
 
+    useEffect(() => {
+        scrollToTop();
+    }, [])
 
     function handleClickBack() {
         navigate('/tutorials')

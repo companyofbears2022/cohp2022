@@ -1,0 +1,59 @@
+{
+    "id": 1,
+    "title": "About Dowload",
+    "time": "2025-09-10",
+    "content": [
+        {
+            "type": 1,
+            "content": "Here are several ways to get the latest version of the mod. Below, we've listed three of the most convenient."
+        },
+        {
+            "type": 0,
+            "content": "Discord: Our new official channel"
+        },
+        {
+            "type": 1,
+            "content": "Launched only a few weeks ago, it offers not only the newest COHP mod but also a growing library of maps created by both our dev team and the community. Drop by, grab the files, and stay for the conversation."
+        },
+        {
+            "type": 3,
+            "content": "Click Me To Join Our Discord Server!",
+            "url": "https://discord.gg/WYBaqT9FQt"
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "Steam Workshop: the simplest option"
+        },
+        {
+            "type": 1,
+            "content": "Just click the link underneath and hit “Subscribe” in the Steam Workshop. From then on every patch will download automatically; you never have to hunt for updates again."
+        },
+        {
+            "type": 3,
+            "content": "Click Me To Subscribe In Steam Workshop!",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3527922181"
+        },
+        {
+            "type": 9
+        },
+        {
+            "type": 0,
+            "content": "QQ Group: for players in China"
+        },
+        {
+            "type": 1,
+            "content": "QQ is China's most popular instant-messenger. If you want to team up with Chinese players, click the link below and join the group."
+        },
+        {
+            "type": 3,
+            "content": "Click Me To Join Our QQ Group!",
+            "url": "https://qm.qq.com/q/C4aTqurjmo"
+        },
+        {
+            "type": 9
+        }
+    ]
+}

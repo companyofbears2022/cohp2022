@@ -24,12 +24,14 @@ function App() {
     if(languageTmp&&languages.includes(languageTmp)) {
       i18n.changeLanguage(languageTmp)
       setLanguage(languageTmp)
+      document.documentElement.lang = i18n.language;
     }
 
   }, [])
 
   return (
     <ThemeProvider>
+      {/* <Helmet htmlAttributes={{ lang: i18n.language }} /> */}
       <RouterProvider router={router} >
         <div className="App">
           <MainPage></MainPage>

@@ -6,18 +6,20 @@ import CardListGrid from '@/components/Cards/CardsListGrid'
 import Pagination from '@/components/Pagination'
 import { useNavigate } from 'react-router-dom'
 import { pageSize } from '@/utils/constants' 
+import { scrollToTop } from '@/utils/tools'
 
 export default function News() {
     // const [page, setPage] = useState()
     const [currentPage, setCurrentPage] = useState(1)
     const navigate = useNavigate()
 
-    const { language, newsList, fetchNewsList, getLanguage, getNewsListTotal } = useStore()
+    const { language, newsList, fetchNewsList, getLanguage, getNewsListTotal, newsCurrentPage, setNewsCurrentPage } = useStore()
 
     const total = getNewsListTotal()
     // console.log('total',total);
     
     function handleClick(id) {
+        setNewsCurrentPage(currentPage)
         navigate(`/news/detail?id=${id}`)
     }
 
@@ -26,7 +28,12 @@ export default function News() {
     },[language])
     // console.log(newsList)
 
+    useEffect(() => {
+        changePage(newsCurrentPage)
+    })
+
     function changePage(index) {
+        scrollToTop()
         setCurrentPage(index)
         fetchNewsList(language, index, pageSize)
     }

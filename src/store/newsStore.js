@@ -12,6 +12,10 @@ export const createNewsSlice = ( set, get ) => ({
         "title": "",
         "content": []
     },
+    newsCurrentPage: 1,
+    setNewsCurrentPage: (page) => {
+        set({ newsCurrentPage : page})
+    },
     fetchNewsList: async (language, currentPage, pageSize) => {
 
         const { newsListTotal } = get()
