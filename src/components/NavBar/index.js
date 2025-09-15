@@ -51,6 +51,12 @@ export default function NavBar() {
             children: []
         },
         {
+            name: 'nav.armourinspector',
+            path: '/armourinspector',
+            handler: () => {},
+            children: []
+        },
+        {
             name: 'nav.theme',
             path: '/theme',
             handler: (value) => {

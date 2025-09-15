@@ -3,6 +3,7 @@
 .common-header {
     display: flex;
     width: 100%;
+    max-width: 100rem;
     justify-content: space-between;
     align-items: center;
     padding: 0 var(--common-padding-side);

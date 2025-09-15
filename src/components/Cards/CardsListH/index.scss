@@ -2,8 +2,11 @@
 
 .cards-list-h {
     position: relative;
+    width: 100%;
+    max-width: 100rem;
+
     .cards-list-body {
-        
+        max-width: 100rem;
         display: flex;
         justify-content: start;
         // position: relative;
@@ -52,6 +55,7 @@
         position: relative;
         .cards-list-body {
             padding: 1px var(--common-padding-side-m);
+            scroll-snap-type: x mandatory;
         }
     }
 }

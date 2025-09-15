@@ -8,6 +8,7 @@ import Loading from '@/components/Loading'
 const NewsDetail = lazy(() => import('@/pages/News/NewsDetail/index'))
 const TutosDetail = lazy(() => import('@/pages/Tutorials/TutosDetail/index'))
 const Documents= lazy(() => import('@/pages/Documents/index'))
+const ArmourInspector= lazy(() => import('@/pages/ArmourInspector/index'))
 const router = createHashRouter([
   {
     path: '/',
@@ -42,6 +43,14 @@ const router = createHashRouter([
     element: (
       <Suspense fallback={<Loading />}>
         <Documents />
+      </Suspense>
+    )
+  },
+  {
+    path: '/armourinspector',
+    element: (
+      <Suspense fallback={<Loading />}>
+        <ArmourInspector />
       </Suspense>
     )
   },

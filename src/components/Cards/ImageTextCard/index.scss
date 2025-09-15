@@ -81,6 +81,7 @@
 @media (max-width: 960px) {
 
     .image-text-card {
+        scroll-snap-align: center;
         width: 21rem;
         height: 30rem;
         /* margin-left: 7vw; */

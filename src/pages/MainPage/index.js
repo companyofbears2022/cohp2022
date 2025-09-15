@@ -55,11 +55,13 @@ export default function MainPage() {
                 </div>
             </BackgroundPlayer>
 
-            <CommonHeader title={t('headers.news')} action={t('actions.more')+' >>>'} clickHandler={navigateToNews}></CommonHeader>
-            <CardsListH items={newsList.data} handleClick={handleNewsClick}></CardsListH>
-            <div className="divider"></div>
-            <CommonHeader title={t('nav.tutorial')} action={t('actions.more')+' >>>'} clickHandler={navigateToTutos}></CommonHeader>
-            <CardsListH items={tutosList.data} handleClick={handleTutosClick}></CardsListH>
+            <div className="img-card-wrapper">
+                <CommonHeader title={t('headers.news')} action={t('actions.more')+' >>>'} clickHandler={navigateToNews}></CommonHeader>
+                <CardsListH items={newsList.data} handleClick={handleNewsClick}></CardsListH>
+                <div className="divider"></div>
+                <CommonHeader title={t('nav.tutorial')} action={t('actions.more')+' >>>'} clickHandler={navigateToTutos}></CommonHeader>
+                <CardsListH items={tutosList.data} handleClick={handleTutosClick}></CardsListH>
+            </div>
             
         </div>
     )

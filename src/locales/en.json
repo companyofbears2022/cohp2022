@@ -5,7 +5,8 @@
         "documents": "Units",
         "theme": "Theme",
         "language": "Language",
-        "community": "Community"
+        "community": "Community",
+        "armourinspector": "Armour-Inspector"
     },
     "headers": {
         "news": "Latest News",

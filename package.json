@@ -36,6 +36,7 @@
     "jest": "^27.4.3",
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
+    "lint-staged": "^16.1.6",
     "mini-css-extract-plugin": "^2.4.5",
     "minisearch": "^7.1.2",
     "postcss": "^8.4.4",
@@ -69,7 +70,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "prepare": "husky"
   },
   "eslintConfig": {
     "extends": [
@@ -90,6 +92,9 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7",
     "sass": "^1.90.0"
   },
   "jest": {
@@ -148,5 +153,12 @@
       "react-app"
     ]
   },
-  "homepage": "https://companyofbears2022.github.io/cohp2022/"
+  "homepage": "https://companyofbears2022.github.io/cohp2022/",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md}": "prettier --write"
+  }
 }
