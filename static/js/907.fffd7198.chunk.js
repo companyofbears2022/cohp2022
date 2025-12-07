@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcobw3=self.webpackChunkcobw3||[]).push([[907],{907:(e,s,c)=>{c.r(s),c.d(s,{default:()=>u});var r=c(414),t=c(579);function u(e){let{item:s}=e;return(0,t.jsx)("div",{className:"armour-inspector",children:(0,t.jsx)(r.A,{})})}}}]);
+//# sourceMappingURL=907.fffd7198.chunk.js.map
